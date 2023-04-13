@@ -1,0 +1,11 @@
+{
+    "/apis/message" : "/apis/message.js?get=true&needsToken=false&addsToken=sub:access",
+    "/apis/random" : "/apis/random.js?get=true&needsToken=false",
+    "/apis/addUser" : "/apis/addUser.js?needsToken=false",
+    "/apis/getUsers" : "/apis/getUsers.js?get=true&needsToken=false&addsToken=sub:access",
+    "/apis/updateUser" : "/apis/updateUser.js?needsToken=false",
+    "/apis/viewUser" : "/apis/viewUser.js?needsToken=false",
+    "/apis/deleteUser" : "/apis/deleteUser.js?needsToken=false",
+    "/apis/crud" : "/apis/crud.js?get=true&needsToken=false&addsToken=sub:access"
+}
+ 

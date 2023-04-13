@@ -1,0 +1,31 @@
+<div id="app-random">
+    <input type="text" name="random" id="random" />
+    <input type="button" value="Get Random String!" id="get-random"
+    onclick='monkshu_env.components["app-random"].getRandomString()'>
+
+
+    <input type="text" id="first_name">
+    <input type="text" id="last_name">
+    <input type="button" value="Save"></input>
+    
+
+</div>
+    
+
+<style>
+    #app-random {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #app-random input {
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
